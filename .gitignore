@@ -38,7 +38,6 @@ jspm_packages
 .tern-port
 
 #IDE
-.vscode
 
 #tsconfig-example
 tsconfig-example.json
@@ -49,3 +48,7 @@ tsconfig-example.json
 #builds
 build/
 out/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

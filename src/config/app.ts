@@ -1,7 +1,7 @@
 import parser = require('../helpers/convertor');
 export const config = {
-    db: parser.parseString('DB', "mongodb://localhost:6667/cook"),
-    port: parser.parseInt('PORT', 6666),
+    db:"mongodb://127.0.0.1:27017/MultiDexArbitrage?authSource=admin",
+    port: parser.parseInt('PORT', 3001),
 };
 
 export default config;
